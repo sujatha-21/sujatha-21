@@ -1,0 +1,8 @@
+l=[ 1,2,3,4,5]
+k=2
+nums = l[k:]+l[:k]
+print(nums)
+l=[ 1,2,3,4,5]
+k=2
+nums=l[-k:]+l[:-k]
+print(nums)
